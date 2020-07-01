@@ -27,3 +27,11 @@ export const matchOTP = otp => {
       otp
     }
 }
+
+// Action to set OTP in store from api or any other source for future reference
+export const setOTP = otp => {
+    return {
+      type: 'SET_OTP',
+      otp
+    }
+}

@@ -14,7 +14,7 @@ describe('<Button />', () => {
         expect(elem.innerHTML).toBe('submit');
 
     });
-    it('should check css of lg button', () => {
+    it('should check css if button size is large', () => {
         const { getByTestId } = render(<Button type="lg" text='submit'/>);
         const elem = getByTestId('btn');
         expect(elem).toHaveStyle('color: #fff');

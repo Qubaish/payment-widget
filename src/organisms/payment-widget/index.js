@@ -13,7 +13,7 @@ const sucessMsg = 'Valid OTP number';
 const failureMsg = 'Invalid OTP number';
 const maxInputFeilds = 6;
 
-function PaymentWidegt({amount, seconds, isMatched, dispatch}){
+function PaymentWidegt({amount, seconds, partnerName, isMatched, dispatch}){
     
     const [otpState, setOtpState] = useState({});
 
@@ -25,7 +25,7 @@ function PaymentWidegt({amount, seconds, isMatched, dispatch}){
         <Section>
             <WidgetContainer>
                 <WidgetBlock>
-                    <WidgetHeader />
+                    <WidgetHeader partnerName={partnerName}/>
                     <AmountText amount={amount}/>
                 </WidgetBlock>
                 {isMatched !== undefined && <Message isError={!isMatched} textMsg={isMatched ? sucessMsg : failureMsg}/>}

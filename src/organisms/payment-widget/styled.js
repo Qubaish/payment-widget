@@ -12,10 +12,12 @@ export const WidgetContainer = styled.div`
 
 export const Section = styled.section`
     background: #D1CEC7;
-    width: 40%;
-    margin: 10px;
+    width: 30%;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    @media only screen and (max-width: 768px) { 
+        width: 100%;
+    }
 `;
 
 export const TimerBlock = styled.div`

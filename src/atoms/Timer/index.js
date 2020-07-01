@@ -15,6 +15,7 @@ const Link = styled.button`
     pointer: cursor;
     align-self: flex-end;
     padding: 5px;
+    cursor: pointer;
     :focus {
         outline: none;
     }
@@ -33,8 +34,8 @@ function Timer({seconds}) {
   
     return (
         <Fragment>
-            {counter > 0 && (<StyledTimer>00:{counter}</StyledTimer>)}
-            {counter === 0 && (<Link onClick={resetTimer}>reset</Link>)}
+            {counter > 0 && (<StyledTimer data-testid="timer">00:{counter}</StyledTimer>)}
+            {counter === 0 && (<Link onClick={resetTimer} data-testid="btn">reset</Link>)}
         </Fragment>
     );
 }

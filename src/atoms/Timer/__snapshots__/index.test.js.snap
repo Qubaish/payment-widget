@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Timer /> checking snapshot 1`] = `
+<DocumentFragment>
+  <span
+    class="sc-AxjAm fivlzj"
+    data-testid="timer"
+  >
+    00:2
+  </span>
+</DocumentFragment>
+`;

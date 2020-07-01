@@ -14,7 +14,10 @@ const StyledMsg = styled.div`
 
 function Message({textMsg, isError}) {
     return (
-        <StyledMsg isError={isError}>{textMsg}</StyledMsg>
+        <StyledMsg
+            isError={isError}
+            data-testid="msg"
+        >{textMsg}</StyledMsg>
     );
 }
 

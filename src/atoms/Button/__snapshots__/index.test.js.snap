@@ -4,7 +4,7 @@ exports[`<Button /> checking snapshot 1`] = `
 <DocumentFragment>
   <button
     aria-label="event button"
-    class="sc-AxjAm jBuBNx"
+    class="sc-AxjAm kzTiRY"
     data-testid="btn"
     type="lg"
   >

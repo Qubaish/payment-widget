@@ -15,8 +15,8 @@ const LargeText = styled.p`
 function Text({text, size}){
     return (
         <Fragment>
-            {size === 'sm' && <SmallText>{text}</SmallText>}
-            {size === 'lg' && <LargeText>{text}</LargeText>}
+            {size === 'sm' && <SmallText data-testid="text">{text}</SmallText>}
+            {size === 'lg' && <LargeText data-testid="text">{text}</LargeText>}
         </Fragment>
     );
 }

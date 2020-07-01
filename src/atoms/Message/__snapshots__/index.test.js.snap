@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Message /> checking snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxjAm jHqMMU"
+    data-testid="msg"
+  >
+    hello
+  </div>
+</DocumentFragment>
+`;

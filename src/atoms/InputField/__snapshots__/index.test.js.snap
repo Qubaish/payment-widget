@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InputField /> checking snapshot 1`] = `
+<DocumentFragment>
+  <input
+    aria-label="Enter OTP digit"
+    class="sc-AxjAm bPsFAW"
+    data-testid="input"
+    placeholder="0"
+    value=""
+  />
+</DocumentFragment>
+`;
