@@ -12,7 +12,7 @@ const Block = styled.div`
 
 function AmountText({amount}){
     return (
-        <Block>
+        <Block data-testid="amount">
             <Text text={amount} size="lg"/>
             <Button type="sm">close</Button>
         </Block>

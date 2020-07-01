@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AmoutText /> checking snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-AxhCb gzDXAC"
+    data-testid="widget-header"
+  >
+    <img
+      class="sc-AxiKw jwJzJl"
+      data-testid="img"
+      name="Business Logo"
+      src="https://static-exp1.licdn.com/sc/h/79m1qiu8wnezlizb5zn646ata"
+    />
+    <div
+      class="sc-AxgMl jsVOUk"
+    >
+      <p
+        class="sc-AxjAm kZBtGC"
+        data-testid="text"
+      >
+        PAYMENT FOR
+      </p>
+      <p
+        class="sc-AxirZ fqAQvC"
+        data-testid="text"
+      >
+        Business
+      </p>
+    </div>
+  </div>
+  <hr
+    class="sc-AxhUy klmKvd"
+  />
+</DocumentFragment>
+`;

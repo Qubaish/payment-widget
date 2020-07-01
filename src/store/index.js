@@ -1,6 +1,6 @@
 import { createStore } from 'redux'
 
-const initialState = {
+export const initialState = {
     otp: 123456, // can get from api or env
     isMatched: undefined,
 }
@@ -9,7 +9,7 @@ const initialState = {
 export const store = createStore(OTP, initialState);
  
 // Reducer
-function OTP(state = [], action) {
+export function OTP(state = [], action) {
     switch (action.type) {
         case 'MATCH_OTP':
         return Object.assign({}, state, {

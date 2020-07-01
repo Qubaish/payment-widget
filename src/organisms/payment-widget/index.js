@@ -22,7 +22,7 @@ function PaymentWidegt({amount, seconds, partnerName, isMatched, dispatch}){
     const confirmOtp = () => dispatch(matchOTP(Number(Object.values(otpState).join(''))));
 
     return (
-        <Section>
+        <Section data-testid="payment-container">
             <WidgetContainer>
                 <WidgetBlock>
                     <WidgetHeader partnerName={partnerName}/>

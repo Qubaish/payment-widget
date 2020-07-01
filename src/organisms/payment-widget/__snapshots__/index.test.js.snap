@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PaymentWidget /> checking snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="sc-fznKkj lijdaM"
+    data-testid="payment-container"
+  >
+    <div
+      class="sc-fznyAO kUvZLy"
+    >
+      <div
+        class="sc-fzplWN fpnfbL"
+      >
+        <div
+          class="sc-AxhCb gzDXAC"
+          data-testid="widget-header"
+        >
+          <img
+            class="sc-AxiKw jwJzJl"
+            data-testid="img"
+            name="Business Logo"
+            src="https://static-exp1.licdn.com/sc/h/79m1qiu8wnezlizb5zn646ata"
+          />
+          <div
+            class="sc-AxgMl jsVOUk"
+          >
+            <p
+              class="sc-AxjAm kZBtGC"
+              data-testid="text"
+            >
+              PAYMENT FOR
+            </p>
+            <p
+              class="sc-AxirZ fqAQvC"
+              data-testid="text"
+            >
+              Test
+            </p>
+          </div>
+        </div>
+        <hr
+          class="sc-AxhUy klmKvd"
+        />
+        <div
+          class="sc-Axmtr eIxSvU"
+          data-testid="amount"
+        >
+          <p
+            class="sc-AxirZ fqAQvC"
+            data-testid="text"
+          >
+            1000
+          </p>
+          <button
+            aria-label="close button"
+            class="sc-AxheI jKKBVi"
+            data-testid="btn"
+            type="sm"
+          >
+            close
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-fzpans eZWDfF"
+        data-testid="msg"
+      >
+        Invalid OTP number
+      </div>
+    </div>
+    <div
+      class="sc-fzokOt ffGXqP"
+    >
+      <div
+        class="sc-fznZeY DOsQe"
+      >
+        <input
+          aria-label="Enter OTP digit"
+          class="sc-AxmLO fIYgi"
+          data-testid="input"
+          placeholder="0"
+          value=""
+        />
+        <input
+          aria-label="Enter OTP digit"
+          class="sc-AxmLO fIYgi"
+          data-testid="input"
+          placeholder="0"
+          value=""
+        />
+        <input
+          aria-label="Enter OTP digit"
+          class="sc-AxmLO fIYgi"
+          data-testid="input"
+          placeholder="0"
+          value=""
+        />
+        <input
+          aria-label="Enter OTP digit"
+          class="sc-AxmLO fIYgi"
+          data-testid="input"
+          placeholder="0"
+          value=""
+        />
+        <input
+          aria-label="Enter OTP digit"
+          class="sc-AxmLO fIYgi"
+          data-testid="input"
+          placeholder="0"
+          value=""
+        />
+        <input
+          aria-label="Enter OTP digit"
+          class="sc-AxmLO fIYgi"
+          data-testid="input"
+          placeholder="0"
+          value=""
+        />
+      </div>
+      <span
+        class="sc-fzozJi kuthRS"
+        data-testid="timer"
+      >
+        00:4
+      </span>
+      <button
+        aria-label="Confirm button"
+        class="sc-AxheI kymALi"
+        data-testid="btn"
+        style="margin-top: auto;"
+        type="lg"
+      >
+        Confirm
+      </button>
+    </div>
+  </section>
+</DocumentFragment>
+`;
