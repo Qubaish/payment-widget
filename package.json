@@ -1,6 +1,6 @@
 {
   "name": "@qubaish/payment-widget",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "dependencies": {
@@ -26,8 +26,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build1": "npx rollup -c",
-    "npm": "rm -rf dist && mkdir dist && npx babel src/index.js, src/App.js --out-dir dist --copy-files",
+    "build:npm": "npx rollup -c",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
