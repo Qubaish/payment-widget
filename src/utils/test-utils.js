@@ -1,9 +1,9 @@
 // test-utils.js
-import React from 'react'
-import { render as rtlRender } from '@testing-library/react'
-import { createStore } from 'redux'
-import { Provider } from 'react-redux'
-import { initialState as reducerInitialState, OTP } from './store'
+import React from 'react';
+import { render as rtlRender } from '@testing-library/react';
+import { createStore } from 'redux';
+import { Provider } from 'react-redux';
+import { initialState as reducerInitialState, OTP } from '../store';
 
 function render(
   ui,

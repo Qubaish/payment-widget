@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import PaymentWidget from './organisms/payment-widget/Loadable';
+import PaymentWidget from './organisms/payment-widget';
 import { Provider } from 'react-redux'
 import { store } from './store';
 
