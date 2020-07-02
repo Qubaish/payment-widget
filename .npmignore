@@ -14,4 +14,7 @@ rollup.config.js
 .eslintignore
 .eslintric
 .gitignore
+utils
+store
+public
 serviceWorker.js

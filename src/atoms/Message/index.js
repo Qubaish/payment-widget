@@ -1,6 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import styled from 'styled-components';
-
 
 const StyledMsg = styled.div`
     background: ${props => props.isError ? '#F8D7D9' : '#D3E2F3'};
@@ -20,6 +20,10 @@ function Message({textMsg, isError}) {
         >{textMsg}</StyledMsg>
     );
 }
+
+Message.propTypes = {
+    textMsg: PropTypes.string,
+};
 
 Message.defaultProps = {
     textMsg: 'Valid OTP number!'

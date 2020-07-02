@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import PropTypes from 'prop-types';
 import Text from '../../atoms/Text';
 import { Img, TextWrapper, Block, Hr } from './styled';
 
@@ -19,6 +20,10 @@ function WidgetHeader({partnerName}){
             <Hr />
         </Fragment>
     );
+}
+
+WidgetHeader.propTypes = {
+    partnerName: PropTypes.string,
 }
 
 export default WidgetHeader;

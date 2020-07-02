@@ -42,6 +42,8 @@ function InputField({placeholder, onChange, index}){
 
 InputField.propTypes = {
     placeholder: PropTypes.string,
+    onChange: PropTypes.func,
+    index: PropTypes.number,
 };
 
 InputField.defaultProps = {

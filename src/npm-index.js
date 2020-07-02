@@ -1,6 +1,6 @@
 import React from 'react';
-import './index.css';
-import PaymentWidget from 'organisms/payment-widget';
+import PropTypes from 'prop-types';
+import PaymentWidget from './organisms/payment-widget/Loadable';
 import { Provider } from 'react-redux'
 import { store } from './store';
 
@@ -20,6 +20,12 @@ Payment.defaultProps = {
   amount: "KD1000,000.00",
   seconds: 10,
   partnerName: "Business Name"
+}
+
+Payment.propTypes = {
+  amount: PropTypes.string,
+  seconds: PropTypes.number,
+  partnerName: PropTypes.string,
 }
 
 export default Payment;

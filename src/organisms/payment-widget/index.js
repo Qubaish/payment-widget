@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 import { connect } from 'react-redux'
 import WidgetHeader from '../../molecules/widget-header';
 import AmountText from '../../molecules/amount-text';
@@ -50,6 +51,14 @@ function PaymentWidegt({amount, seconds, partnerName, isMatched, dispatch}){
             </TimerContainer>
         </Section>
     );
+};
+
+PaymentWidegt.propTypes = {
+    amount: PropTypes.string,
+    partnerName: PropTypes.string,
+    seconds: PropTypes.number,
+    isMatched: PropTypes.bool,
+    dispatch: PropTypes.func,
 };
 
 export default connect(state => ({ isMatched: state.isMatched }))(PaymentWidegt);

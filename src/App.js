@@ -1,6 +1,5 @@
 import React from 'react';
-import PaymentWidget from './organisms/payment-widget';
-import './App.css';
+import PaymentWidget from './organisms/payment-widget/Loadable';
 
 function App() {
   return (

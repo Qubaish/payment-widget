@@ -21,4 +21,9 @@ function Text({text, size}){
     );
 }
 
+Text.propTypes = {
+    text: PropTypes.string,
+    size: PropTypes.string,
+};
+
 export default Text;

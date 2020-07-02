@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Text from '../../atoms/Text';
 import Button from '../../atoms/Button';
 import styled from 'styled-components';
@@ -17,6 +18,10 @@ function AmountText({amount}){
             <Button type="sm">close</Button>
         </Block>
     );
+}
+
+AmountText.propTypes = {
+    amount: PropTypes.string
 }
 
 export default AmountText;

@@ -2,7 +2,7 @@
 <br/>
 
  Demo
-<a href="https://boring-noyce-e5b76e.netlify.app/">Switcher Component</a>
+<a href="https://boring-noyce-e5b76e.netlify.app/">Payment Widget</a>
 
 ## Installation
 
@@ -26,8 +26,11 @@ function SwitcherExample() {
     )
 }
 
+```
+
 To set up the project:
 
 1.  Fork and clone the repository
 2.  `$ npm install`
 3.  `$ npm run start`
+4.  `$ npm run test`

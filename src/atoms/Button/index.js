@@ -33,6 +33,7 @@ Button.prototype = {
     onClick: PropTypes.func,
     type: PropTypes.oneOf(['sm', 'lg']),
     text: PropTypes.string,
+    style: PropTypes.shape({}),
 };
 
 Button.defaultProps = {
